@@ -14,6 +14,8 @@ cask "quota" do
     strategy :github_latest
   end
 
+  deprecate! date: "2026-06-11", because: "the app was renamed to Token — use jamielaird/token/token"
+
   depends_on macos: :sonoma
 
   app "Quota.app"

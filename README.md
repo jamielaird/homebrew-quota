@@ -1,9 +1,7 @@
 # homebrew-quota
 
-Homebrew tap for [Quota](https://github.com/jamielaird/quota), a macOS menu-bar monitor for Claude Code usage, plan quota, and AI API spend.
+**Deprecated: Quota was renamed to [Token](https://github.com/jamielaird/token).** Install with:
 
 ```sh
-brew install --cask jamielaird/quota/quota
+brew install --cask jamielaird/token/token
 ```
-
-Use the fully-qualified name. Binaries are published as Releases on this repo because the cask download URL must be unauthenticated.
